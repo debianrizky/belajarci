@@ -62,6 +62,7 @@
             <input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
             <button type="submit" class="w-100 btn btn-lg btn-primary">Login</button>
             <!-- <p class="mt-5 mb-3 text-muted">&copy; Warung Belajar</p> -->
+            <p>Buat Akun? <a href="register">Daftar</a></p>
         </form>
     </main>
 

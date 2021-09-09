@@ -33,6 +33,7 @@ class Filters extends BaseConfig
 			'csrf',
 			'usersAuth' => [
 				'except' => [
+					'register/*',
 					'login/*',
 					'logout/*'
 				]

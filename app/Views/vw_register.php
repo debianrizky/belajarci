@@ -11,20 +11,8 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
 
-
-
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-    <meta name="theme-color" content="#7952b3">
-
 
     <style>
         .bd-placeholder-img {
@@ -52,13 +40,12 @@
     <!-- Begin page content -->
     <main class="flex-shrink-0">
         <div class="container">
-            <h1 class="mt-5">Register Form</h1>
-            Silahkan Daftarkan Identitas Anda
+            <h1 class="mt-5" style="text-align: center;">Register</h1>
             <hr />
             <?php if (!empty(session()->getFlashdata('error'))) : ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <h4>Periksa Entrian Form</h4>
-                    </hr />
+                    <!-- <h4>Periksa Entrian Form</h4>
+                </hr /> -->
                     <?php echo session()->getFlashdata('error'); ?>
                 </div>
             <?php endif; ?>
@@ -81,17 +68,17 @@
                     <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Register</button>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
                 </div>
+                <p style="text-align: center;">Already have an account? <a href="index">Login here</a></p>
             </form>
-            <hr />
 
         </div>
     </main>
 
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <!-- <span class="text-muted">Place sticky footer content here.</span> -->
         </div>
     </footer>
 
