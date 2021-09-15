@@ -51,7 +51,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://warungbelajar.com">Coba</a>
+            <a class="navbar-brand" href="#">Coba</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -60,6 +60,9 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item active">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="/pegawai">Pegawai</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url(); ?>/logout">Logout</a>
